@@ -1,0 +1,25 @@
+{
+  "name": "aelio-core",
+  "version": "1.0.0",
+  "description": "Aelio is an AI-powered trading system for Solana tokens that leverages sentiment analysis, holder behavior, and technical indicators to make informed trading decisions.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aelio-VC/aelio-core.git"
+  },
+  "author": "shadoxsage",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Aelio-VC/aelio-core/issues"
+  },
+  "homepage": "https://github.com/Aelio-VC/aelio-core#readme",
+  "dependencies": {
+    "@types/node": "^22.12.0",
+    "agent-twitter-client": "^0.0.18",
+    "dotenv": "^16.4.7"
+  }
+}

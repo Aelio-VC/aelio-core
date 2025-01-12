@@ -1,0 +1,38 @@
+{
+	"compilerOptions": {
+		"target": "ES2020",
+		"module": "commonjs",
+		"lib": [
+			"es2020",
+			"esnext.asynciterable",
+			"dom"
+		], // Added "dom"
+		"skipLibCheck": true,
+		"sourceMap": true,
+		"outDir": "./dist",
+		"moduleResolution": "node",
+		"removeComments": true,
+		"noImplicitAny": true,
+		"strictNullChecks": true,
+		"strictFunctionTypes": true,
+		"noImplicitThis": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+		"allowSyntheticDefaultImports": true,
+		"allowImportingTsExtensions": true,
+		"esModuleInterop": true,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"resolveJsonModule": true,
+		"baseUrl": ".",
+		"noEmit": true // Added this to prevent compilation
+	},
+	"exclude": [
+		"node_modules"
+	],
+	"include": [
+		"./src/**/*.ts"
+	]
+}
