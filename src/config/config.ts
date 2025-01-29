@@ -21,4 +21,8 @@ export const config = {
 		privateKey: process.env.PRIVATE_KEY || '',
 		positionStaleThreshold: 60000, // 60 seconds
 	},
+	server: {
+        port: Number(process.env.PORT) || 3000,
+        apiKey: process.env.API_KEY || '',
+    },
 };

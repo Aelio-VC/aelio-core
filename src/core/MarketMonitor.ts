@@ -5,10 +5,10 @@ interface MarketEvents {
   tweet: (...args: any[]) => void;
 }
 
-class MarketMonitor extends EventEmitter {
+export class MarketMonitor extends EventEmitter {
     private static instance: MarketMonitor;
 
-    private constructor() {
+    constructor() {
         super();
     }
 
@@ -19,11 +19,11 @@ class MarketMonitor extends EventEmitter {
         return MarketMonitor.instance;
     }
 
-    on<K extends keyof MarketEvents>(event: K, listener: MarketEvents[K]): this {
+    on<K extends keyof MarketEvents>(event: any, listener: MarketEvents[K]): this {
         return super.on(event, listener);
     }
 
-    emit<K extends keyof MarketEvents>(event: K, ...args: Parameters<MarketEvents[K]>): boolean {
+    emit<K extends keyof MarketEvents>(event: any, ...args: Parameters<MarketEvents[K]>): boolean {
         return super.emit(event, ...args);
     }
 }
