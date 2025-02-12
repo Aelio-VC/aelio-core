@@ -1,4 +1,4 @@
-![Project Demo](./public/demo.mp4)
+![Project Demo](./public/demo.gif)
 
 # Aelio-core
 
