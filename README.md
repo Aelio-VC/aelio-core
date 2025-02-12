@@ -1,4 +1,6 @@
-# Aelio
+![Project Demo](./public/demo.mp4)
+
+# Aelio-core
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.2-blue.svg)](https://www.typescriptlang.org/)
